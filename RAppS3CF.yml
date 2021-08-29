@@ -7,14 +7,11 @@ Parameters:
     Default: "dea-reactjs-4test"
 
 Resources:
-  # Create the bucket to contain the website HTML
+  # Create the bucket
   S3Bucket:
     Type: "AWS::S3::Bucket"
     Properties:
       BucketName: !Ref BucketName
-      WebsiteConfiguration:
-        ErrorDocument: "index.html"
-        IndexDocument: "index.html"
 
   # Configure the bucket as a CloudFront Origin
   ReadPolicy:
