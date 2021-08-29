@@ -1,3 +1,14 @@
+
+Reference:
+
+https://codeburst.io/learn-react-js-build-a-portfolio-single-page-application-spa-ba001082a711
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/quickref-cloudfront.html#scenario-cloudfront-s3origin
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-distribution.html
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution-s3originconfig.html
+https://youtu.be/CQ8vzm1kYkM
+https://docs.aws.amazon.com/cli/latest/reference/cloudfront/create-invalidation.html
+
+
 Provide either a Terraform or a Cloudformation template that creates the following
 infrastructure as code to host the SPA on AWS:
 
